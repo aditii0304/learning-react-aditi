@@ -4,7 +4,7 @@
   "description": "Learning React project",
   "main": "index.js",
   "scripts": {
-    "build": "echo 'Building the project...' && webpack --config webpack.config.js" 
+    "build": "echo 'Building the project...' " 
   },
   "dependencies": {
     "yarn": "^1.22.22"
