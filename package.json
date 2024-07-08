@@ -1,16 +1,81 @@
 {
-  "name": "learning_react",
-  "version": "1.0.0",
-  "description": "Learning React project",
-  "main": "index.js",
-  "scripts": {
-    "build": "echo 'Building the project...' " 
-  },
+  "name": "learning-react",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "yarn": "^1.22.22"
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.14.19",
+    "@reduxjs/toolkit": "^1.9.2",
+    "@stripe/react-stripe-js": "^2.6.0",
+    "@stripe/stripe-js": "^3.0.7",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "apexcharts": "^3.42.0",
+    "axios": "^1.2.2",
+    "bootstrap": "^5.2.0",
+    "click-to-react-component": "^1.0.8",
+    "formik": "^2.2.9",
+    "i": "^0.3.7",
+    "jquery": "^3.6.1",
+    "moment": "^2.29.4",
+    "moment-timezone": "0.5.34",
+    "multiselect-react-dropdown": "^2.0.25",
+    "oidc-client": "^1.11.5",
+    "oidc-react": "^2.1.0",
+    "react": "^18.2.0",
+    "react-apexcharts": "^1.4.1",
+    "react-bootstrap": "^2.5.0",
+    "react-datepicker": "^4.8.0",
+    "react-doc-viewer": "^0.1.13",
+    "react-dom": "^18.2.0",
+    "react-draggable": "^4.4.5",
+    "react-draggable-lists": "^1.0.1",
+    "react-feather": "^2.0.10",
+    "react-file-viewer": "^1.2.1",
+    "react-h5-audio-player": "^3.8.5",
+    "react-overlays": "^5.2.1",
+    "react-phone-number-input": "^3.3.0",
+    "react-player": "^2.12.0",
+    "react-redux": "^8.0.5",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^5.3.3",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.4.0",
+    "react-slick": "^0.29.0",
+    "react-toastify": "^9.1.2",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2",
+    "slick-carousel": "^1.8.1",
+    "url-file-size": "^1.0.5-1",
+    "validator": "^13.9.0",
+    "web-vitals": "^2.1.4",
+    "yarn": "^1.22.19"
   },
-  "devDependencies": {
-    "webpack": "^5.0.0"  
+  "scripts": {
+    "start": "set HTTPS=true&&react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "license": "MIT"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
