@@ -1,0 +1,16 @@
+{
+  "name": "learning_react",
+  "version": "1.0.0",
+  "description": "Learning React project",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Building the project...' && webpack --config webpack.config.js"  // Replace this with your actual build command
+  },
+  "dependencies": {
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0"  // Add your development dependencies here
+  },
+  "license": "MIT"
+}
